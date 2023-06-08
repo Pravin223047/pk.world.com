@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Website</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/c4254e24a8.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <ul id="sidemenu">
+                    <li><a href="#header">HOME</a></li>
+                    <li><a href="#about">ABOUT</a></li>
+                    <li><a href="#services">PROJECTS</a></li>
+                    <li><a href="#portfolio">PORTFOLIO</a></li>
+                    <li><a href="#contact">CONTACT</a></li>
+                    <i class="fas fa-times" onclick="closemenu()"></i>
+                </ul>
+                <i class="fas fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="logo">
+                <img src="Images/c1 (3).jpeg" style="height: 700px;" alt="">
+            </div>
+            <div class="header-text">
+                <p>College Student</p>
+                <h1>Hi, I'm <span>Pravin</span><br> Kshirsagar From India.</h1>
+            </div>
+        </div>
+    </div>
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="Images/c1 (1).jpeg">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p>Hi, I'm Pravin Kshirsagar from Solapur,India.<br>I am Studying in Second year at Nagesh Karajagi Orchid College of Engineering and Technology(NKOCET),Solapur.</p>
+                    <p>Now-a-Days I am learning programming languages at verified Intellise It Institute which is placed in solapur itself.<br>I have got certified in C Programming Language.<br>I am working on some projects like Online Library Management System,Self Portfolio,etc.</p>
+                    <div class="tab-titles">
+                      <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                      <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                      <p class="tab-links" onclick="opentab('education')">Education</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>Programming Languages</span><br>C,C++,JAVA</li>
+                            <li><span>Communication Skills</span><br>English,Hindi,Marathi</li>
+                            <li><span>Quality</span><br>Hard Working</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><span>2022-Current</span><br>Studying Java Programming language at NKOCET.</li>
+                            <li><span>2022-Current</span><br>Web Designing Intership at Intellise It Institute.</li>
+                            <li><span>2022-Current</span><br>Studying C++ Programming Language at Intellise It Institute.</li>
+                            <li><span>2022</span><br>Studied C Programming Language at Intellise It Institute.</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>2019</span><br>Completed 10th std with 82.80%.</li>
+                            <li><span>2021</span><br>Completed 12th std with 91.50%.</li>
+                            <li><span>2022-Current</span><br>Completed 1st Year with 9.46 cgpa.</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-title">My Projects</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fas fa-code"></i>
+                    <h2>Online Library Managements System</h2>
+                    <p>Online Library Managements System is the face that represents us in the Digital World.It leads to an easy search of the desired book from the library.</p>
+                    <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <i class="fas fa-crop-alt"></i>
+                    <h2>Kshirsagar Udyog Website</h2>
+                    <p>It is an Website that represents the variety of towels and napkins sale.We get wide variety of cloths sales.</p>
+                    <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <i class="fab fa-app-store"></i>
+                    <h2>Self Portfolio</h2>
+                    <p>It is an Website that represents my own introduction.</p>
+                    <a href="#">Learn more</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-title">My Work</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="Images/library" alt="">
+                    <div class="layer">
+                        <h3>Library System</h3>
+                        <p>The website connects you to the related books around the world.
+                            You can download from the website.
+                        </p>
+                        <a href="#"><i class="fas fa-external-link-alt"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="Images/towel">
+                    <div class="layer">
+                        <h3>Towel Website</h3>
+                        <p>The website connects you to the related variety of towels and napkins.
+                            You can purchase it from the website.
+                        </p>
+                        <a href="#"><i class="fas fa-external-link-alt"></i></a>
+                    </div>
+                </div>
+                <div class="work work1">
+                    <img src="Images/personal" style="height: 100%; width:100%;">
+                    <div class="layer">
+                        <h3>My Own Portfolio</h3>
+                        <p>The website connects you to towards my work.
+                            You can contact me from the website.
+                        </p>
+                        <a href="http://localhost:5500/Portfolio/pravin.html#header"><i class="fas fa-external-link-alt"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <a href="#" class="btn">See more</a>
+    </div>
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact Me</h1>
+                    <p><i class="fas fa-paper-plane"></i>kshirsagarpravin.1111@gmail.com</p>
+                    <p><i class="fas fa-phone-square-alt"></i>8623891154</p>
+                    <div class="social-icons">
+                        <a href=""><i class="fab fa-facebook"></i></a>
+                        <a href=""><i class="fab fa-instagram"></i></a>
+                        <a href=""><i class="fab fa-linkedin"></i></a>
+                        <a href=""><i class="fab fa-twitter"></i></a>
+                    </div>
+                    <a href="Images/c1" download class="btn btn2">Download CV</a>
+                </div>
+                <div class="contact-right">
+                    <form>
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="email" name="email" placeholder="Your Email" required>
+                        <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                        <button type="submit" class="btn btn2">Submit</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>Copyright © Pravin. Made with <i class="fas fa-heart"></i> by Pravin Kshirsagar</p>
+        </div>
+    </div>
+    <script>
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+        function opentab(tabname){
+            for(tablink of tablinks){
+                tablink.classList.remove("active-link");
+            }
+            for(tabcontent of tabcontents){
+                tabcontent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+        }
+    </script>
+    <script>
+        var sidemenu = document.getElementById("sidemenu");
+        function openmenu(){
+            sidemenu.style.right = "0";
+        }
+        function closemenu(){
+            sidemenu.style.right = "-200px";
+        }
+    </script>
+</body>
+
+</html>

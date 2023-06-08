@@ -563,7 +563,7 @@ h3.my-profession {
     content: '';
     position: absolute;
     inset: 6px;
-    background-image: url("c1\ \(1\).jpeg");
+    background-image: url("Images/c1 (1).jpeg");
     background-size: 500px 500px;
     border-radius: 16px;
 }
